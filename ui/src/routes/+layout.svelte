@@ -1,16 +1,27 @@
 <script lang="ts">
 	import '../app.css';
-	
+	export const prerender = true;
+
 	let { children } = $props();
 </script>
 
-<nav class="bg-gray-200">
-    <div class="flex">
-        <a href="./" class="flex-auto">
-            <img src="arkansas-profit-printing-logo.png" alt="Arkansas Profit Printing Home Page">
-        </a>
-        <a href="/contact" class="flex-auto bg-amber-400">Contact Heath!</a>
-    </div>
-</nav>
+<head>
+    <title>Arkansas Profit Printing</title>
+    <!-- There's already a head tag in the app.html, might need to put stuff there instead! -->
+</head>
+
+<header>
+    <nav class="daisy-navbar justify-center">
+        <div class="justify-center">
+            <a href="./" class="inline-flex">
+                <img
+                    src="/logos/arkansas-profit-printing-logo.png"
+                    alt="Arkansas Profit Printing Home Page"
+                    class=""
+                />
+            </a>
+        </div>
+    </nav>
+</header>
 
 {@render children()}
