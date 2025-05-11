@@ -16,7 +16,7 @@
         </div>
 
         <div class="daisy-carousel w-full max-w-[1152px] max-h-[864px] shadow-2xl mt-4">
-            <div id="item1" class="daisy-carousel-item w-full scroll-mt-[500px]">
+            <div id="item1" class="daisy-carousel-item w-full scroll-mt-[400px]">
                 <img
                         src="/postcards-archive/february-1.png"
                         alt="February Postcard-Front"
