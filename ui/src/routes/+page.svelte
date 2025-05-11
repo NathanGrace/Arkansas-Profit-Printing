@@ -52,7 +52,7 @@
 
     <!-- Value Proposition Section -->
     <section class="relative">
-        <div class="absolute inset-0 bg-[url(/conway-drone-shot.jpg)] w-full bg-center bg-contain bg-fixed"></div>
+        <div class="absolute inset-0 bg-[url(/conway-drone-shot.jpg)] bg-center bg-fill bg-fixed"></div>
         <div class="absolute inset-0 bg-black/60"></div>
 
         <!-- Text overlay -->
