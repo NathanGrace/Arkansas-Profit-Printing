@@ -51,11 +51,12 @@
 
 
     <!-- Value Proposition Section -->
-    <section class="relative bg-[url(/conway-drone-shot.jpg)] w-full h-auto bg-fixed bg-cover bg-center">
+    <section class="relative">
+        <div class="absolute inset-0 bg-[url(/conway-drone-shot.jpg)] w-full bg-center bg-contain bg-fixed"></div>
         <div class="absolute inset-0 bg-black/60"></div>
 
         <!-- Text overlay -->
-        <div class="flex flex-col items-center justify-center text-center p-24">
+        <div class="flex flex-col py-24 px-8 text-center">
             <h2 class="text-4xl font-bold font-baloo text-primary mb-2 drop-shadow-lg">Get Noticed!</h2>
             <p class="text-xl text-white drop-shadow-lg">Join this huge postcard mailed to roughly 10,000 residents in your city!</p>
         </div>
@@ -127,7 +128,7 @@
             <img
                 src="heath-headshot.jpeg"
                 alt="Headshot of Heath, the owner"
-                class="w-full h-96"
+                class="w-auto h-96"
             />
         </figure>
         <article class="w-lg">
