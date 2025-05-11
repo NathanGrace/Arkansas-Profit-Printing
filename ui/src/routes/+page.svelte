@@ -16,25 +16,25 @@
         </div>
 
         <div class="daisy-carousel w-full max-w-[1152px] max-h-[864px] shadow-2xl mt-4">
-            <div id="item1" class="daisy-carousel-item w-full scroll-mt-96">
+            <div id="item1" class="daisy-carousel-item w-full scroll-mt-64">
                 <img
                         src="/postcards-archive/february-1.png"
                         alt="February Postcard-Front"
                         class="w-full" />
             </div>
-            <div id="item2" class="daisy-carousel-item w-full scroll-mt-96">
+            <div id="item2" class="daisy-carousel-item w-full scroll-mt-64">
                 <img
                         src="/postcards-archive/february-2.png"
                         alt="February Postcard-Back"
                         class="w-full" />
             </div>
-            <div id="item3" class="daisy-carousel-item w-full scroll-mt-96">
+            <div id="item3" class="daisy-carousel-item w-full scroll-mt-64">
                 <img
                         src="/postcards-archive/march-1.png"
                         alt="March Postcard-Front"
                         class="w-full" />
             </div>
-            <div id="item4" class="daisy-carousel-item w-full scroll-mt-96">
+            <div id="item4" class="daisy-carousel-item w-full scroll-mt-64">
                 <img
                         src="/postcards-archive/march-2.png"
                         alt="March Postcard-Back"
